@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="assets/images/icon.png">
-    <title>Portfólio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Página</title>
 </head>
 
 <body id="menu">
@@ -14,9 +15,9 @@
     <!--Menu da Página-->
     <nav>
         <!--Logo + Texto à esquerda do Menu-->
-        <div>
-            <img src="assets/images/icon.png" alt="Logo da página - Estrela">
-            <span>Portfólio</span>
+        <div class="logo">
+            <img class="icone" src="assets/images/icon.png" alt="Logo da página - Estrela">
+            <span class="titulo">Página</span>
         </div>
         <!--Opções do Menu utilizando marcadores não ordenados (simbólico)-->
         <ul>
@@ -38,7 +39,7 @@
     <!--Conteúdo da Página-->
     <main>
         <h1 id="perfil">Sobre:</h1>
-        <section>
+        <section id="sobre">
             <div>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex aspernatur fugit error eligendi dolorem
                     odio repellat a, nobis architecto expedita mollitia, recusandae commodi provident accusamus
@@ -47,28 +48,29 @@
                     odio repellat a, nobis architecto expedita mollitia, recusandae commodi provident accusamus
                     necessitatibus, in ipsa ipsum. Rerum.</p>
             </div>
-            <img src="assets/images/imagem.png" alt="Imagem Stardew Valley">
+            <img class="foto" src="assets/images/imagem.png" alt="Imagem Stardew Valley">
         </section>
-        <h1 id="video">Vídeo:</h1>
-        <section>
-            <h2>Músicas</h2>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/CZ535VdqcUI"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
+        <section id="video">
+            <div>
+                <h1>Vídeo:</h1>
+                <h2>Músicas</h2>
+                <iframe class="videoyt" width="860" height="515" src="https://www.youtube.com/embed/CZ535VdqcUI"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
         </section>
     </main>
 
     <!--Rodapé da Página-->
     <footer>
-        <div>
-            <a href="https://www.linkedin.com/in/leticia-queiroga/" target="_blank">
-                <img src="assets/images/linkedin.png" alt="Linkedin">
-            </a>
-            <a href="https://github.com/Letixs" target="_blank">
-                <img src="assets/images/github.png" alt="Github">
-            </a>
-        </div>
+        <a href="https://www.linkedin.com/in/leticia-queiroga/" target="_blank">
+            <img class="linkedin" src="assets/images/linkedin.png" alt="Linkedin">
+        </a>
+        <a href="https://github.com/Letixs" target="_blank">
+            <img class="github" src="assets/images/github.png" alt="Github">
+        </a>
+        <p class="by">Desenvolvido por: Letícia Queiroga - 2023 &copy;</p>
     </footer>
 </body>
 
