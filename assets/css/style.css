@@ -167,6 +167,24 @@ hr {
     margin: 1rem;
 }
 
+.contato {
+    text-align: center;
+  }
+  
+  .formulario, .formulario_buscacep {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    margin: 0 2%;
+  }
+
+label {
+    font-family: var(--lato-roboto);
+    font-size: 1.15rem;
+    margin-left: 1rem;
+    font-weight: 500;
+}
+
 label {
     font-family: 'Literata', 'ExtraLight 200';
     font-size: 1.25rem;
@@ -211,7 +229,7 @@ textarea::placeholder {
         justify-content: center;
         align-items: center;
         font-size: 1.25rem;
-        
+
     }
 
     .logo {
